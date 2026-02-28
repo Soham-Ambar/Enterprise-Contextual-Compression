@@ -13,7 +13,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 from typing import List, Dict, Any, Optional
-from sentence_transformers import SentenceTransformer
+import hashlib
+import struct
+import random
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -133,11 +135,51 @@ class ImportanceScorer:
         self.device = device or ('cuda' if torch.cuda.is_available() else 'cpu')
         logger.info(f"Using device: {self.device}")
         
-        # Load sentence transformer for embeddings
-        logger.info("Loading sentence transformer model...")
-        self.embedder = SentenceTransformer('all-MiniLM-L6-v2')
-        self.embedder.to(self.device)
-        embedding_dim = self.embedder.get_sentence_embedding_dimension()
+        # Lazy-load sentence transformer for embeddings if available,
+        # otherwise use a deterministic lightweight fallback embedder.
+        embedding_dim = 384
+        try:
+            logger.info("Attempting to load 'sentence_transformers'...")
+            from sentence_transformers import SentenceTransformer  # local import
+            self.embedder = SentenceTransformer('all-MiniLM-L6-v2')
+            try:
+                # Some embedder implementations support `.to()`
+                self.embedder.to(self.device)
+            except Exception:
+                pass
+            embedding_dim = self.embedder.get_sentence_embedding_dimension()
+            logger.info(f"Loaded sentence_transformers with dim={embedding_dim}")
+        except Exception:
+            logger.warning(
+                "Could not load 'sentence_transformers' quickly — using lightweight fallback embedder."
+            )
+
+            class SimpleDeterministicEmbedder:
+                def __init__(self, dim: int = 384):
+                    self._dim = dim
+
+                def get_sentence_embedding_dimension(self):
+                    return self._dim
+
+                def to(self, device: str):
+                    # no-op for compatibility
+                    return self
+
+                def encode(self, texts, convert_to_tensor=False, show_progress_bar=False):
+                    # Deterministic hash-based embeddings: stable across runs
+                    vecs = []
+                    for t in texts:
+                        h = hashlib.sha256(t.encode('utf-8')).digest()
+                        # Use repeated hashing to fill vector
+                        rnd = random.Random(struct.unpack_from('>Q', h[:8])[0])
+                        v = [rnd.uniform(-1, 1) for _ in range(self._dim)]
+                        vecs.append(v)
+                    arr = np.asarray(vecs, dtype=np.float32)
+                    if convert_to_tensor:
+                        return torch.from_numpy(arr)
+                    return arr
+
+            self.embedder = SimpleDeterministicEmbedder(dim=embedding_dim)
         
         # Initialize LNN
         self.model = LiquidNeuralNetwork(

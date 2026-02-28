@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contextual Compression UI</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow-lg rounded-4 border-0 overflow-hidden">
+          <div class="row g-0 align-items-stretch">
+            <div class="col-md-5 bg-primary text-white p-4">
+              <h3 class="fw-bold">Upload & Compress</h3>
+              <p class="text-white-75">Drop documents here and tune compression options for precise fact extraction.</p>
+              <p class="small mt-4">Supported formats: .txt, .pdf</p>
+            </div>
+            <div class="col-md-7 p-4">
+              <form method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                  <label class="form-label">Document file</label>
+                  <input class="form-control" type="file" name="doc" accept=".txt,.pdf" required />
+                </div>
+
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label class="form-label">Importance Threshold <small class="text-muted">(<span id="thresholdValue">0.50</span>)</small></label>
+                    <input type="range" name="threshold" min="0" max="1" step="0.01" value="0.5" class="form-range" id="thresholdRange">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="form-label">Min Confidence</label>
+                    <input type="number" name="min_confidence" min="0" max="1" step="0.01" value="0.4" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Target ratio</label>
+                    <input type="number" name="target_ratio" min="0" max="1" step="0.01" value="0.5" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-check form-switch mt-3">
+                  <input class="form-check-input" type="checkbox" id="useCombined" name="use_combined" checked>
+                  <label class="form-check-label" for="useCombined">Use combined score (LNN + extraction confidence)</label>
+                </div>
+
+                <div class="form-check form-switch mt-2">
+                  <input class="form-check-input" type="checkbox" id="autoTune" name="auto_tune">
+                  <label class="form-check-label" for="autoTune">Enable auto-tune</label>
+                </div>
+
+                <div class="mt-3">
+                  <label class="form-label">Model path (optional)</label>
+                  <input type="text" name="model_path" class="form-control" placeholder="Path to pre-trained model weights (optional)">
+                </div>
+
+                <div class="d-grid mt-4">
+                  <button class="btn btn-primary btn-lg" type="submit">Compress</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const range = document.getElementById('thresholdRange');
+    const out = document.getElementById('thresholdValue');
+    if(range && out) {
+      out.textContent = parseFloat(range.value).toFixed(2);
+      range.addEventListener('input', () => out.textContent = parseFloat(range.value).toFixed(2));
+    }
+  </script>
+</body>
+</html>

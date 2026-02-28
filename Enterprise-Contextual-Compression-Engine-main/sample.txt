@@ -1,0 +1,134 @@
+ENTERPRISE FINANCIAL SERVICES POLICY DOCUMENT
+Version 3.2.1 | Effective Date: January 1, 2024 | Review Date: December 31, 2024
+
+================================================================================
+SECTION 1: ACCOUNT WITHDRAWAL LIMITS AND RESTRICTIONS
+================================================================================
+
+1.1 Daily Withdrawal Limits
+
+All standard account holders are subject to daily withdrawal limits. The maximum daily withdrawal limit for personal accounts is $5,000. For business accounts, the daily withdrawal limit is set at $25,000. Premium account holders may withdraw up to $50,000 per day without prior authorization.
+
+Any withdrawal request exceeding these limits must be submitted at least 48 hours in advance and requires approval from the Account Management Department. Withdrawals above $100,000 require additional verification and may take up to 5 business days to process.
+
+1.2 ATM Withdrawal Restrictions
+
+ATM withdrawals are limited to $500 per transaction. The maximum number of ATM transactions allowed per day is 10. The cumulative daily ATM withdrawal limit cannot exceed $2,000 per account. Transactions exceeding these thresholds will be automatically declined.
+
+1.3 Wire Transfer Thresholds
+
+Domestic wire transfers below $10,000 can be processed immediately. Wire transfers between $10,000 and $50,000 require secondary verification and may take up to 24 hours. International wire transfers exceeding $25,000 must comply with international banking regulations and require compliance officer approval.
+
+All wire transfers above $100,000 are subject to mandatory anti-money laundering (AML) screening and may be held for up to 72 hours for review.
+
+================================================================================
+SECTION 2: RISK MANAGEMENT AND ASSESSMENT PROTOCOLS
+================================================================================
+
+2.1 Risk Classification Framework
+
+All financial transactions are classified according to risk levels. Low-risk transactions are those below $1,000. Medium-risk transactions range from $1,000 to $10,000. High-risk transactions exceed $10,000 and require enhanced due diligence.
+
+Transactions above $50,000 are automatically flagged as critical risk and trigger comprehensive risk assessment procedures. The risk assessment must be completed within 4 hours of transaction initiation.
+
+2.2 Fraud Detection Thresholds
+
+The system automatically monitors for suspicious activity patterns. Any single transaction exceeding $15,000 triggers immediate fraud detection protocols. Multiple transactions totaling $20,000 within a 24-hour period will also activate fraud prevention measures.
+
+Account activity showing unusual patterns, such as 5 or more transactions exceeding $5,000 within a single day, will result in temporary account suspension pending investigation. The investigation must be completed within 48 hours.
+
+2.3 Market Risk Exposure Limits
+
+Portfolio exposure to any single asset class cannot exceed 30% of total portfolio value. The maximum leverage ratio allowed is 3:1. Positions exceeding these limits must be reduced within 5 business days or face automatic liquidation.
+
+Derivative positions with a notional value exceeding $1,000,000 require risk committee approval. The risk committee meets weekly and decisions are communicated within 2 business days.
+
+================================================================================
+SECTION 3: COMPLIANCE CONSTRAINTS AND REGULATORY REQUIREMENTS
+================================================================================
+
+3.1 Regulatory Compliance Standards
+
+All operations must comply with the Bank Secrecy Act (BSA) requirements. Transactions exceeding $10,000 must be reported to the Financial Crimes Enforcement Network (FinCEN) within 15 days. Failure to comply with BSA reporting requirements may result in penalties up to $500,000 per violation.
+
+The organization maintains compliance with PCI DSS Level 1 standards at all times. Any security breach affecting more than 1,000 customer records must be reported to regulatory authorities within 72 hours.
+
+3.2 Know Your Customer (KYC) Requirements
+
+New account openings require complete KYC documentation. Accounts with initial deposits exceeding $25,000 require enhanced due diligence (EDD) procedures. EDD must be completed within 10 business days of account opening.
+
+Existing accounts with annual transaction volumes exceeding $100,000 must undergo annual KYC review. The review process must be completed within 30 days of the anniversary date.
+
+3.3 Data Retention and Privacy Constraints
+
+Customer transaction data must be retained for a minimum of 7 years as per regulatory requirements. However, data cannot be retained beyond 10 years without explicit customer consent. Personal identifiable information (PII) must be encrypted using AES-256 encryption standards.
+
+Access to customer data is restricted to authorized personnel only. Unauthorized access attempts exceeding 3 within a 24-hour period will result in immediate account lockout and security review.
+
+================================================================================
+SECTION 4: EXCEPTIONS AND SPECIAL CIRCUMSTANCES
+================================================================================
+
+4.1 Emergency Withdrawal Exceptions
+
+Standard withdrawal limits may be waived in emergency circumstances, including medical emergencies, natural disasters, or legal obligations. Emergency withdrawals up to $20,000 can be approved by branch managers. Withdrawals between $20,000 and $50,000 require regional manager approval.
+
+Emergency withdrawals exceeding $50,000 must be approved by the Chief Operating Officer. All emergency exceptions must be documented within 24 hours and reviewed by the compliance department within 5 business days.
+
+4.2 Corporate Account Exceptions
+
+Corporate accounts with verified business relationships exceeding 5 years may be granted increased withdrawal limits. The maximum exception limit is $200,000 per day. These exceptions require annual review and re-approval.
+
+Corporate accounts with annual transaction volumes exceeding $5,000,000 may apply for custom limit structures. Custom limits must be approved by the Executive Risk Committee and reviewed quarterly.
+
+4.3 Regulatory Exception Procedures
+
+In cases where regulatory requirements conflict with standard procedures, the compliance officer has authority to grant exceptions. However, all exceptions must be documented and reported to the board of directors within 30 days.
+
+Exceptions to compliance requirements cannot exceed 90 days without board approval. Any exception extending beyond 90 days requires formal policy amendment procedures.
+
+================================================================================
+SECTION 5: NUMERICAL THRESHOLDS AND OPERATIONAL LIMITS
+================================================================================
+
+5.1 Account Balance Thresholds
+
+Accounts with balances below $100 are subject to monthly maintenance fees of $5. Accounts maintaining a minimum balance of $1,000 or more are exempt from maintenance fees. Premium account status requires a minimum balance of $25,000.
+
+Interest-bearing accounts require a minimum balance of $500 to earn interest. The interest rate is tiered: 0.5% for balances $500-$10,000, 1.0% for balances $10,000-$50,000, and 1.5% for balances exceeding $50,000.
+
+5.2 Transaction Fee Structures
+
+Standard transaction fees apply as follows: domestic transfers below $1,000 incur a $5 fee. Transfers between $1,000 and $5,000 incur a $10 fee. Transfers exceeding $5,000 incur a fee of 0.2% of the transaction amount, with a maximum fee cap of $100.
+
+International transfers are subject to additional fees: $25 for transfers below $5,000, $50 for transfers between $5,000 and $25,000, and $100 plus 0.3% for transfers exceeding $25,000.
+
+5.3 Credit Limit Thresholds
+
+Personal credit lines are limited to 30% of annual income, with a maximum cap of $50,000. Business credit lines cannot exceed 20% of annual revenue, with a maximum cap of $500,000. Credit limit increases above 50% of the original limit require credit committee approval.
+
+Credit utilization above 80% of the approved limit triggers automatic review. Accounts maintaining utilization above 90% for more than 60 days may have credit limits reduced.
+
+================================================================================
+SECTION 6: OPERATIONAL RISK AND BUSINESS CONTINUITY
+================================================================================
+
+6.1 System Availability Requirements
+
+Core banking systems must maintain 99.9% uptime availability. Any system outage exceeding 4 hours triggers business continuity protocols. Critical system failures must be resolved within 8 hours or escalate to executive management.
+
+Scheduled maintenance windows cannot exceed 6 hours per month. Emergency maintenance requires approval from the Chief Technology Officer if exceeding 2 hours.
+
+6.2 Error Rate Thresholds
+
+Transaction error rates must not exceed 0.1% of total transactions. Error rates above 0.5% trigger immediate investigation. Error rates exceeding 1.0% require system-wide review and may result in service suspension until resolution.
+
+Customer complaint resolution must be completed within 5 business days for standard issues. Critical complaints affecting account access must be resolved within 24 hours.
+
+================================================================================
+END OF POLICY DOCUMENT
+================================================================================
+
+For questions or clarifications regarding this policy, contact the Compliance Department at compliance@enterprisebank.com or call 1-800-555-0100.
+
+This document supersedes all previous versions dated prior to January 1, 2024.

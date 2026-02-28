@@ -1,0 +1,1366 @@
+{
+  "compressed_facts": [
+    {
+      "fact_text": "Positions exceeding these limits must be reduced within 5 business days or face automatic liquidation",
+      "importance_score": 0.6269,
+      "confidence_score": 1.0,
+      "combined_score": 0.7389,
+      "fact_type": "threshold,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_8",
+      "paragraph_id": "sample_section_8_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_8",
+        "paragraph_id": "sample_section_8_para_0"
+      },
+      "original_text": "Portfolio exposure to any single asset class cannot exceed 30% of total portfolio value. The maximum leverage ratio allowed is 3:1. Positions exceeding these limits must be reduced within 5 business days or face automatic liquidation."
+    },
+    {
+      "fact_text": "Accounts maintaining a minimum balance of $1,000 or more are exempt from maintenance fees",
+      "importance_score": 0.6253,
+      "confidence_score": 1.0,
+      "combined_score": 0.7377,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_18",
+      "paragraph_id": "sample_section_18_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_18",
+        "paragraph_id": "sample_section_18_para_0"
+      },
+      "original_text": "Accounts with balances below $100 are subject to monthly maintenance fees of $5. Accounts maintaining a minimum balance of $1,000 or more are exempt from maintenance fees. Premium account status requires a minimum balance of $25,000."
+    },
+    {
+      "fact_text": "The maximum leverage ratio allowed is 3:1",
+      "importance_score": 0.6203,
+      "confidence_score": 1.0,
+      "combined_score": 0.7342,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_8",
+      "paragraph_id": "sample_section_8_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_8",
+        "paragraph_id": "sample_section_8_para_0"
+      },
+      "original_text": "Portfolio exposure to any single asset class cannot exceed 30% of total portfolio value. The maximum leverage ratio allowed is 3:1. Positions exceeding these limits must be reduced within 5 business days or face automatic liquidation."
+    },
+    {
+      "fact_text": "Derivative positions with a notional value exceeding $1,000,000 require risk committee approval",
+      "importance_score": 0.62,
+      "confidence_score": 1.0,
+      "combined_score": 0.734,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_8",
+      "paragraph_id": "sample_section_8_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_8",
+        "paragraph_id": "sample_section_8_para_1"
+      },
+      "original_text": "Derivative positions with a notional value exceeding $1,000,000 require risk committee approval. The risk committee meets weekly and decisions are communicated within 2 business days."
+    },
+    {
+      "fact_text": "For questions or clarifications regarding this policy, contact the Compliance Department at compliance@enterprisebank.com or call 1-800-555-0100",
+      "importance_score": 0.6187,
+      "confidence_score": 1.0,
+      "combined_score": 0.7331,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_24",
+      "paragraph_id": "sample_section_24_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_24",
+        "paragraph_id": "sample_section_24_para_1"
+      },
+      "original_text": "For questions or clarifications regarding this policy, contact the Compliance Department at compliance@enterprisebank.com or call 1-800-555-0100."
+    },
+    {
+      "fact_text": "The risk assessment must be completed within 4 hours of transaction initiation",
+      "importance_score": 0.6177,
+      "confidence_score": 1.0,
+      "combined_score": 0.7324,
+      "fact_type": "number,risk,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_6",
+      "paragraph_id": "sample_section_6_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_6",
+        "paragraph_id": "sample_section_6_para_1"
+      },
+      "original_text": "Transactions above $50,000 are automatically flagged as critical risk and trigger comprehensive risk assessment procedures. The risk assessment must be completed within 4 hours of transaction initiation."
+    },
+    {
+      "fact_text": "Any exception extending beyond 90 days requires formal policy amendment procedures",
+      "importance_score": 0.6172,
+      "confidence_score": 1.0,
+      "combined_score": 0.732,
+      "fact_type": "number,exception,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_16",
+      "paragraph_id": "sample_section_16_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_16",
+        "paragraph_id": "sample_section_16_para_1"
+      },
+      "original_text": "Exceptions to compliance requirements cannot exceed 90 days without board approval. Any exception extending beyond 90 days requires formal policy amendment procedures."
+    },
+    {
+      "fact_text": "However, data cannot be retained beyond 10 years without explicit customer consent",
+      "importance_score": 0.6158,
+      "confidence_score": 1.0,
+      "combined_score": 0.7311,
+      "fact_type": "number,constraint,exception",
+      "document_id": "sample",
+      "section_id": "sample_section_12",
+      "paragraph_id": "sample_section_12_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_12",
+        "paragraph_id": "sample_section_12_para_0"
+      },
+      "original_text": "Customer transaction data must be retained for a minimum of 7 years as per regulatory requirements. However, data cannot be retained beyond 10 years without explicit customer consent. Personal identifiable information (PII) must be encrypted using AES-256 encryption standards."
+    },
+    {
+      "fact_text": "Custom limits must be approved by the Executive Risk Committee and reviewed quarterly",
+      "importance_score": 0.6158,
+      "confidence_score": 1.0,
+      "combined_score": 0.731,
+      "fact_type": "risk,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_15",
+      "paragraph_id": "sample_section_15_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_15",
+        "paragraph_id": "sample_section_15_para_1"
+      },
+      "original_text": "Corporate accounts with annual transaction volumes exceeding $5,000,000 may apply for custom limit structures. Custom limits must be approved by the Executive Risk Committee and reviewed quarterly."
+    },
+    {
+      "fact_text": "These exceptions require annual review and re-approval",
+      "importance_score": 0.6154,
+      "confidence_score": 1.0,
+      "combined_score": 0.7308,
+      "fact_type": "exception",
+      "document_id": "sample",
+      "section_id": "sample_section_15",
+      "paragraph_id": "sample_section_15_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_15",
+        "paragraph_id": "sample_section_15_para_0"
+      },
+      "original_text": "Corporate accounts with verified business relationships exceeding 5 years may be granted increased withdrawal limits. The maximum exception limit is $200,000 per day. These exceptions require annual review and re-approval."
+    },
+    {
+      "fact_text": "All financial transactions are classified according to risk levels",
+      "importance_score": 0.6151,
+      "confidence_score": 1.0,
+      "combined_score": 0.7306,
+      "fact_type": "risk,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_6",
+      "paragraph_id": "sample_section_6_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_6",
+        "paragraph_id": "sample_section_6_para_0"
+      },
+      "original_text": "All financial transactions are classified according to risk levels. Low-risk transactions are those below $1,000. Medium-risk transactions range from $1,000 to $10,000. High-risk transactions exceed $10,000 and require enhanced due diligence."
+    },
+    {
+      "fact_text": "Premium account status requires a minimum balance of $25,000",
+      "importance_score": 0.6149,
+      "confidence_score": 1.0,
+      "combined_score": 0.7304,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_18",
+      "paragraph_id": "sample_section_18_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_18",
+        "paragraph_id": "sample_section_18_para_0"
+      },
+      "original_text": "Accounts with balances below $100 are subject to monthly maintenance fees of $5. Accounts maintaining a minimum balance of $1,000 or more are exempt from maintenance fees. Premium account status requires a minimum balance of $25,000."
+    },
+    {
+      "fact_text": "Credit utilization above 80% of the approved limit triggers automatic review",
+      "importance_score": 0.6146,
+      "confidence_score": 1.0,
+      "combined_score": 0.7302,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_20",
+      "paragraph_id": "sample_section_20_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_20",
+        "paragraph_id": "sample_section_20_para_1"
+      },
+      "original_text": "Credit utilization above 80% of the approved limit triggers automatic review. Accounts maintaining utilization above 90% for more than 60 days may have credit limits reduced."
+    },
+    {
+      "fact_text": "Accounts maintaining utilization above 90% for more than 60 days may have credit limits reduced",
+      "importance_score": 0.6144,
+      "confidence_score": 1.0,
+      "combined_score": 0.7301,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_20",
+      "paragraph_id": "sample_section_20_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_20",
+        "paragraph_id": "sample_section_20_para_1"
+      },
+      "original_text": "Credit utilization above 80% of the approved limit triggers automatic review. Accounts maintaining utilization above 90% for more than 60 days may have credit limits reduced."
+    },
+    {
+      "fact_text": "Standard transaction fees apply as follows: domestic transfers below $1,000 incur a $5 fee",
+      "importance_score": 0.614,
+      "confidence_score": 1.0,
+      "combined_score": 0.7298,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_19",
+      "paragraph_id": "sample_section_19_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_19",
+        "paragraph_id": "sample_section_19_para_0"
+      },
+      "original_text": "Standard transaction fees apply as follows: domestic transfers below $1,000 incur a $5 fee. Transfers between $1,000 and $5,000 incur a $10 fee. Transfers exceeding $5,000 incur a fee of 0.2% of the transaction amount, with a maximum fee cap of $100."
+    },
+    {
+      "fact_text": "International transfers are subject to additional fees: $25 for transfers below $5,000, $50 for transfers between $5,000 and $25,000, and $100 plus 0.3% for transfers exceeding $25,000",
+      "importance_score": 0.6141,
+      "confidence_score": 1.0,
+      "combined_score": 0.7298,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_19",
+      "paragraph_id": "sample_section_19_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_19",
+        "paragraph_id": "sample_section_19_para_1"
+      },
+      "original_text": "International transfers are subject to additional fees: $25 for transfers below $5,000, $50 for transfers between $5,000 and $25,000, and $100 plus 0.3% for transfers exceeding $25,000."
+    },
+    {
+      "fact_text": "Personal credit lines are limited to 30% of annual income, with a maximum cap of $50,000",
+      "importance_score": 0.614,
+      "confidence_score": 1.0,
+      "combined_score": 0.7298,
+      "fact_type": "threshold,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_20",
+      "paragraph_id": "sample_section_20_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_20",
+        "paragraph_id": "sample_section_20_para_0"
+      },
+      "original_text": "Personal credit lines are limited to 30% of annual income, with a maximum cap of $50,000. Business credit lines cannot exceed 20% of annual revenue, with a maximum cap of $500,000. Credit limit increases above 50% of the original limit require credit committee approval."
+    },
+    {
+      "fact_text": "Critical complaints affecting account access must be resolved within 24 hours",
+      "importance_score": 0.6132,
+      "confidence_score": 1.0,
+      "combined_score": 0.7293,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_23",
+      "paragraph_id": "sample_section_23_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_23",
+        "paragraph_id": "sample_section_23_para_1"
+      },
+      "original_text": "Customer complaint resolution must be completed within 5 business days for standard issues. Critical complaints affecting account access must be resolved within 24 hours."
+    },
+    {
+      "fact_text": "Interest-bearing accounts require a minimum balance of $500 to earn interest",
+      "importance_score": 0.6131,
+      "confidence_score": 1.0,
+      "combined_score": 0.7291,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_18",
+      "paragraph_id": "sample_section_18_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_18",
+        "paragraph_id": "sample_section_18_para_1"
+      },
+      "original_text": "Interest-bearing accounts require a minimum balance of $500 to earn interest. The interest rate is tiered: 0.5% for balances $500-$10,000, 1.0% for balances $10,000-$50,000, and 1.5% for balances exceeding $50,000."
+    },
+    {
+      "fact_text": "Customer complaint resolution must be completed within 5 business days for standard issues",
+      "importance_score": 0.613,
+      "confidence_score": 1.0,
+      "combined_score": 0.7291,
+      "fact_type": "number,risk,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_23",
+      "paragraph_id": "sample_section_23_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_23",
+        "paragraph_id": "sample_section_23_para_1"
+      },
+      "original_text": "Customer complaint resolution must be completed within 5 business days for standard issues. Critical complaints affecting account access must be resolved within 24 hours."
+    },
+    {
+      "fact_text": "Any withdrawal request exceeding these limits must be submitted at least 48 hours in advance and requires approval from the Account Management Department",
+      "importance_score": 0.6128,
+      "confidence_score": 1.0,
+      "combined_score": 0.729,
+      "fact_type": "threshold,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_2",
+      "paragraph_id": "sample_section_2_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_2",
+        "paragraph_id": "sample_section_2_para_1"
+      },
+      "original_text": "Any withdrawal request exceeding these limits must be submitted at least 48 hours in advance and requires approval from the Account Management Department. Withdrawals above $100,000 require additional verification and may take up to 5 business days to process."
+    },
+    {
+      "fact_text": "Transactions above $50,000 are automatically flagged as critical risk and trigger comprehensive risk assessment procedures",
+      "importance_score": 0.6128,
+      "confidence_score": 1.0,
+      "combined_score": 0.729,
+      "fact_type": "number,risk,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_6",
+      "paragraph_id": "sample_section_6_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_6",
+        "paragraph_id": "sample_section_6_para_1"
+      },
+      "original_text": "Transactions above $50,000 are automatically flagged as critical risk and trigger comprehensive risk assessment procedures. The risk assessment must be completed within 4 hours of transaction initiation."
+    },
+    {
+      "fact_text": "Existing accounts with annual transaction volumes exceeding $100,000 must undergo annual KYC review",
+      "importance_score": 0.6129,
+      "confidence_score": 1.0,
+      "combined_score": 0.729,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_11",
+      "paragraph_id": "sample_section_11_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_11",
+        "paragraph_id": "sample_section_11_para_1"
+      },
+      "original_text": "Existing accounts with annual transaction volumes exceeding $100,000 must undergo annual KYC review. The review process must be completed within 30 days of the anniversary date."
+    },
+    {
+      "fact_text": "Customer transaction data must be retained for a minimum of 7 years as per regulatory requirements",
+      "importance_score": 0.6128,
+      "confidence_score": 1.0,
+      "combined_score": 0.729,
+      "fact_type": "threshold,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_12",
+      "paragraph_id": "sample_section_12_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_12",
+        "paragraph_id": "sample_section_12_para_0"
+      },
+      "original_text": "Customer transaction data must be retained for a minimum of 7 years as per regulatory requirements. However, data cannot be retained beyond 10 years without explicit customer consent. Personal identifiable information (PII) must be encrypted using AES-256 encryption standards."
+    },
+    {
+      "fact_text": "Corporate accounts with annual transaction volumes exceeding $5,000,000 may apply for custom limit structures",
+      "importance_score": 0.6123,
+      "confidence_score": 1.0,
+      "combined_score": 0.7286,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_15",
+      "paragraph_id": "sample_section_15_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_15",
+        "paragraph_id": "sample_section_15_para_1"
+      },
+      "original_text": "Corporate accounts with annual transaction volumes exceeding $5,000,000 may apply for custom limit structures. Custom limits must be approved by the Executive Risk Committee and reviewed quarterly."
+    },
+    {
+      "fact_text": "Credit limit increases above 50% of the original limit require credit committee approval",
+      "importance_score": 0.6122,
+      "confidence_score": 1.0,
+      "combined_score": 0.7285,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_20",
+      "paragraph_id": "sample_section_20_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_20",
+        "paragraph_id": "sample_section_20_para_0"
+      },
+      "original_text": "Personal credit lines are limited to 30% of annual income, with a maximum cap of $50,000. Business credit lines cannot exceed 20% of annual revenue, with a maximum cap of $500,000. Credit limit increases above 50% of the original limit require credit committee approval."
+    },
+    {
+      "fact_text": "Medium-risk transactions range from $1,000 to $10,000",
+      "importance_score": 0.6118,
+      "confidence_score": 1.0,
+      "combined_score": 0.7282,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_6",
+      "paragraph_id": "sample_section_6_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_6",
+        "paragraph_id": "sample_section_6_para_0"
+      },
+      "original_text": "All financial transactions are classified according to risk levels. Low-risk transactions are those below $1,000. Medium-risk transactions range from $1,000 to $10,000. High-risk transactions exceed $10,000 and require enhanced due diligence."
+    },
+    {
+      "fact_text": "The risk committee meets weekly and decisions are communicated within 2 business days",
+      "importance_score": 0.6114,
+      "confidence_score": 1.0,
+      "combined_score": 0.728,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_8",
+      "paragraph_id": "sample_section_8_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_8",
+        "paragraph_id": "sample_section_8_para_1"
+      },
+      "original_text": "Derivative positions with a notional value exceeding $1,000,000 require risk committee approval. The risk committee meets weekly and decisions are communicated within 2 business days."
+    },
+    {
+      "fact_text": "Failure to comply with BSA reporting requirements may result in penalties up to $500,000 per violation",
+      "importance_score": 0.6113,
+      "confidence_score": 1.0,
+      "combined_score": 0.7279,
+      "fact_type": "threshold,risk,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_10",
+      "paragraph_id": "sample_section_10_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_10",
+        "paragraph_id": "sample_section_10_para_0"
+      },
+      "original_text": "All operations must comply with the Bank Secrecy Act (BSA) requirements. Transactions exceeding $10,000 must be reported to the Financial Crimes Enforcement Network (FinCEN) within 15 days. Failure to comply with BSA reporting requirements may result in penalties up to $500,000 per violation."
+    },
+    {
+      "fact_text": "Transfers exceeding $5,000 incur a fee of 0.2% of the transaction amount, with a maximum fee cap of $100",
+      "importance_score": 0.6113,
+      "confidence_score": 1.0,
+      "combined_score": 0.7279,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_19",
+      "paragraph_id": "sample_section_19_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_19",
+        "paragraph_id": "sample_section_19_para_0"
+      },
+      "original_text": "Standard transaction fees apply as follows: domestic transfers below $1,000 incur a $5 fee. Transfers between $1,000 and $5,000 incur a $10 fee. Transfers exceeding $5,000 incur a fee of 0.2% of the transaction amount, with a maximum fee cap of $100."
+    },
+    {
+      "fact_text": "ATM withdrawals are limited to $500 per transaction",
+      "importance_score": 0.6109,
+      "confidence_score": 1.0,
+      "combined_score": 0.7276,
+      "fact_type": "threshold,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_3",
+      "paragraph_id": "sample_section_3_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_3",
+        "paragraph_id": "sample_section_3_para_0"
+      },
+      "original_text": "ATM withdrawals are limited to $500 per transaction. The maximum number of ATM transactions allowed per day is 10. The cumulative daily ATM withdrawal limit cannot exceed $2,000 per account. Transactions exceeding these thresholds will be automatically declined."
+    },
+    {
+      "fact_text": "High-risk transactions exceed $10,000 and require enhanced due diligence",
+      "importance_score": 0.6109,
+      "confidence_score": 1.0,
+      "combined_score": 0.7276,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_6",
+      "paragraph_id": "sample_section_6_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_6",
+        "paragraph_id": "sample_section_6_para_0"
+      },
+      "original_text": "All financial transactions are classified according to risk levels. Low-risk transactions are those below $1,000. Medium-risk transactions range from $1,000 to $10,000. High-risk transactions exceed $10,000 and require enhanced due diligence."
+    },
+    {
+      "fact_text": "However, all exceptions must be documented and reported to the board of directors within 30 days",
+      "importance_score": 0.6104,
+      "confidence_score": 1.0,
+      "combined_score": 0.7272,
+      "fact_type": "number,constraint,exception",
+      "document_id": "sample",
+      "section_id": "sample_section_16",
+      "paragraph_id": "sample_section_16_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_16",
+        "paragraph_id": "sample_section_16_para_0"
+      },
+      "original_text": "In cases where regulatory requirements conflict with standard procedures, the compliance officer has authority to grant exceptions. However, all exceptions must be documented and reported to the board of directors within 30 days."
+    },
+    {
+      "fact_text": "The maximum daily withdrawal limit for personal accounts is $5,000",
+      "importance_score": 0.6101,
+      "confidence_score": 1.0,
+      "combined_score": 0.7271,
+      "fact_type": "threshold,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_2",
+      "paragraph_id": "sample_section_2_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_2",
+        "paragraph_id": "sample_section_2_para_0"
+      },
+      "original_text": "All standard account holders are subject to daily withdrawal limits. The maximum daily withdrawal limit for personal accounts is $5,000. For business accounts, the daily withdrawal limit is set at $25,000. Premium account holders may withdraw up to $50,000 per day without prior authorization."
+    },
+    {
+      "fact_text": "All wire transfers above $100,000 are subject to mandatory anti-money laundering (AML) screening and may be held for up to 72 hours for review",
+      "importance_score": 0.6098,
+      "confidence_score": 1.0,
+      "combined_score": 0.7269,
+      "fact_type": "threshold,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_4",
+      "paragraph_id": "sample_section_4_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_4",
+        "paragraph_id": "sample_section_4_para_1"
+      },
+      "original_text": "All wire transfers above $100,000 are subject to mandatory anti-money laundering (AML) screening and may be held for up to 72 hours for review."
+    },
+    {
+      "fact_text": "The maximum exception limit is $200,000 per day",
+      "importance_score": 0.6099,
+      "confidence_score": 1.0,
+      "combined_score": 0.7269,
+      "fact_type": "threshold,exception,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_15",
+      "paragraph_id": "sample_section_15_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_15",
+        "paragraph_id": "sample_section_15_para_0"
+      },
+      "original_text": "Corporate accounts with verified business relationships exceeding 5 years may be granted increased withdrawal limits. The maximum exception limit is $200,000 per day. These exceptions require annual review and re-approval."
+    },
+    {
+      "fact_text": "The interest rate is tiered: 0.5% for balances $500-$10,000, 1.0% for balances $10,000-$50,000, and 1.5% for balances exceeding $50,000",
+      "importance_score": 0.6098,
+      "confidence_score": 1.0,
+      "combined_score": 0.7269,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_18",
+      "paragraph_id": "sample_section_18_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_18",
+        "paragraph_id": "sample_section_18_para_1"
+      },
+      "original_text": "Interest-bearing accounts require a minimum balance of $500 to earn interest. The interest rate is tiered: 0.5% for balances $500-$10,000, 1.0% for balances $10,000-$50,000, and 1.5% for balances exceeding $50,000."
+    },
+    {
+      "fact_text": "Transactions exceeding $10,000 must be reported to the Financial Crimes Enforcement Network (FinCEN) within 15 days",
+      "importance_score": 0.6096,
+      "confidence_score": 1.0,
+      "combined_score": 0.7268,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_10",
+      "paragraph_id": "sample_section_10_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_10",
+        "paragraph_id": "sample_section_10_para_0"
+      },
+      "original_text": "All operations must comply with the Bank Secrecy Act (BSA) requirements. Transactions exceeding $10,000 must be reported to the Financial Crimes Enforcement Network (FinCEN) within 15 days. Failure to comply with BSA reporting requirements may result in penalties up to $500,000 per violation."
+    },
+    {
+      "fact_text": "In cases where regulatory requirements conflict with standard procedures, the compliance officer has authority to grant exceptions",
+      "importance_score": 0.6094,
+      "confidence_score": 1.0,
+      "combined_score": 0.7266,
+      "fact_type": "constraint,exception,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_16",
+      "paragraph_id": "sample_section_16_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_16",
+        "paragraph_id": "sample_section_16_para_0"
+      },
+      "original_text": "In cases where regulatory requirements conflict with standard procedures, the compliance officer has authority to grant exceptions. However, all exceptions must be documented and reported to the board of directors within 30 days."
+    },
+    {
+      "fact_text": "Portfolio exposure to any single asset class cannot exceed 30% of total portfolio value",
+      "importance_score": 0.6092,
+      "confidence_score": 1.0,
+      "combined_score": 0.7264,
+      "fact_type": "threshold,risk,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_8",
+      "paragraph_id": "sample_section_8_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_8",
+        "paragraph_id": "sample_section_8_para_0"
+      },
+      "original_text": "Portfolio exposure to any single asset class cannot exceed 30% of total portfolio value. The maximum leverage ratio allowed is 3:1. Positions exceeding these limits must be reduced within 5 business days or face automatic liquidation."
+    },
+    {
+      "fact_text": "Error rates exceeding 1.0% require system-wide review and may result in service suspension until resolution",
+      "importance_score": 0.6088,
+      "confidence_score": 1.0,
+      "combined_score": 0.7262,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_23",
+      "paragraph_id": "sample_section_23_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_23",
+        "paragraph_id": "sample_section_23_para_0"
+      },
+      "original_text": "Transaction error rates must not exceed 0.1% of total transactions. Error rates above 0.5% trigger immediate investigation. Error rates exceeding 1.0% require system-wide review and may result in service suspension until resolution."
+    },
+    {
+      "fact_text": "Premium account holders may withdraw up to $50,000 per day without prior authorization",
+      "importance_score": 0.6087,
+      "confidence_score": 1.0,
+      "combined_score": 0.7261,
+      "fact_type": "threshold,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_2",
+      "paragraph_id": "sample_section_2_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_2",
+        "paragraph_id": "sample_section_2_para_0"
+      },
+      "original_text": "All standard account holders are subject to daily withdrawal limits. The maximum daily withdrawal limit for personal accounts is $5,000. For business accounts, the daily withdrawal limit is set at $25,000. Premium account holders may withdraw up to $50,000 per day without prior authorization."
+    },
+    {
+      "fact_text": "The review process must be completed within 30 days of the anniversary date",
+      "importance_score": 0.6086,
+      "confidence_score": 1.0,
+      "combined_score": 0.726,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_11",
+      "paragraph_id": "sample_section_11_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_11",
+        "paragraph_id": "sample_section_11_para_1"
+      },
+      "original_text": "Existing accounts with annual transaction volumes exceeding $100,000 must undergo annual KYC review. The review process must be completed within 30 days of the anniversary date."
+    },
+    {
+      "fact_text": "Transaction error rates must not exceed 0.1% of total transactions",
+      "importance_score": 0.6086,
+      "confidence_score": 1.0,
+      "combined_score": 0.726,
+      "fact_type": "threshold,risk,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_23",
+      "paragraph_id": "sample_section_23_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_23",
+        "paragraph_id": "sample_section_23_para_0"
+      },
+      "original_text": "Transaction error rates must not exceed 0.1% of total transactions. Error rates above 0.5% trigger immediate investigation. Error rates exceeding 1.0% require system-wide review and may result in service suspension until resolution."
+    },
+    {
+      "fact_text": "Multiple transactions totaling $20,000 within a 24-hour period will also activate fraud prevention measures",
+      "importance_score": 0.6084,
+      "confidence_score": 1.0,
+      "combined_score": 0.7259,
+      "fact_type": "number,risk,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_7",
+      "paragraph_id": "sample_section_7_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_7",
+        "paragraph_id": "sample_section_7_para_0"
+      },
+      "original_text": "The system automatically monitors for suspicious activity patterns. Any single transaction exceeding $15,000 triggers immediate fraud detection protocols. Multiple transactions totaling $20,000 within a 24-hour period will also activate fraud prevention measures."
+    },
+    {
+      "fact_text": "Business credit lines cannot exceed 20% of annual revenue, with a maximum cap of $500,000",
+      "importance_score": 0.6084,
+      "confidence_score": 1.0,
+      "combined_score": 0.7259,
+      "fact_type": "threshold,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_20",
+      "paragraph_id": "sample_section_20_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_20",
+        "paragraph_id": "sample_section_20_para_0"
+      },
+      "original_text": "Personal credit lines are limited to 30% of annual income, with a maximum cap of $50,000. Business credit lines cannot exceed 20% of annual revenue, with a maximum cap of $500,000. Credit limit increases above 50% of the original limit require credit committee approval."
+    },
+    {
+      "fact_text": "Low-risk transactions are those below $1,000",
+      "importance_score": 0.6083,
+      "confidence_score": 1.0,
+      "combined_score": 0.7258,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_6",
+      "paragraph_id": "sample_section_6_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_6",
+        "paragraph_id": "sample_section_6_para_0"
+      },
+      "original_text": "All financial transactions are classified according to risk levels. Low-risk transactions are those below $1,000. Medium-risk transactions range from $1,000 to $10,000. High-risk transactions exceed $10,000 and require enhanced due diligence."
+    },
+    {
+      "fact_text": "Core banking systems must maintain 99.9% uptime availability",
+      "importance_score": 0.6082,
+      "confidence_score": 1.0,
+      "combined_score": 0.7257,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_22",
+      "paragraph_id": "sample_section_22_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_22",
+        "paragraph_id": "sample_section_22_para_0"
+      },
+      "original_text": "Core banking systems must maintain 99.9% uptime availability. Any system outage exceeding 4 hours triggers business continuity protocols. Critical system failures must be resolved within 8 hours or escalate to executive management."
+    },
+    {
+      "fact_text": "Accounts with initial deposits exceeding $25,000 require enhanced due diligence (EDD) procedures",
+      "importance_score": 0.6075,
+      "confidence_score": 1.0,
+      "combined_score": 0.7253,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_11",
+      "paragraph_id": "sample_section_11_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_11",
+        "paragraph_id": "sample_section_11_para_0"
+      },
+      "original_text": "New account openings require complete KYC documentation. Accounts with initial deposits exceeding $25,000 require enhanced due diligence (EDD) procedures. EDD must be completed within 10 business days of account opening."
+    },
+    {
+      "fact_text": "Scheduled maintenance windows cannot exceed 6 hours per month",
+      "importance_score": 0.6068,
+      "confidence_score": 1.0,
+      "combined_score": 0.7247,
+      "fact_type": "threshold,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_22",
+      "paragraph_id": "sample_section_22_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_22",
+        "paragraph_id": "sample_section_22_para_1"
+      },
+      "original_text": "Scheduled maintenance windows cannot exceed 6 hours per month. Emergency maintenance requires approval from the Chief Technology Officer if exceeding 2 hours."
+    },
+    {
+      "fact_text": "International wire transfers exceeding $25,000 must comply with international banking regulations and require compliance officer approval",
+      "importance_score": 0.6066,
+      "confidence_score": 1.0,
+      "combined_score": 0.7246,
+      "fact_type": "number,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_4",
+      "paragraph_id": "sample_section_4_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_4",
+        "paragraph_id": "sample_section_4_para_0"
+      },
+      "original_text": "Domestic wire transfers below $10,000 can be processed immediately. Wire transfers between $10,000 and $50,000 require secondary verification and may take up to 24 hours. International wire transfers exceeding $25,000 must comply with international banking regulations and require compliance officer approval."
+    },
+    {
+      "fact_text": "Emergency withdrawals exceeding $50,000 must be approved by the Chief Operating Officer",
+      "importance_score": 0.6066,
+      "confidence_score": 1.0,
+      "combined_score": 0.7246,
+      "fact_type": "number,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_14",
+      "paragraph_id": "sample_section_14_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_14",
+        "paragraph_id": "sample_section_14_para_1"
+      },
+      "original_text": "Emergency withdrawals exceeding $50,000 must be approved by the Chief Operating Officer. All emergency exceptions must be documented within 24 hours and reviewed by the compliance department within 5 business days."
+    },
+    {
+      "fact_text": "Any system outage exceeding 4 hours triggers business continuity protocols",
+      "importance_score": 0.6066,
+      "confidence_score": 1.0,
+      "combined_score": 0.7246,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_22",
+      "paragraph_id": "sample_section_22_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_22",
+        "paragraph_id": "sample_section_22_para_0"
+      },
+      "original_text": "Core banking systems must maintain 99.9% uptime availability. Any system outage exceeding 4 hours triggers business continuity protocols. Critical system failures must be resolved within 8 hours or escalate to executive management."
+    },
+    {
+      "fact_text": "The maximum number of ATM transactions allowed per day is 10",
+      "importance_score": 0.6062,
+      "confidence_score": 1.0,
+      "combined_score": 0.7243,
+      "fact_type": "threshold,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_3",
+      "paragraph_id": "sample_section_3_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_3",
+        "paragraph_id": "sample_section_3_para_0"
+      },
+      "original_text": "ATM withdrawals are limited to $500 per transaction. The maximum number of ATM transactions allowed per day is 10. The cumulative daily ATM withdrawal limit cannot exceed $2,000 per account. Transactions exceeding these thresholds will be automatically declined."
+    },
+    {
+      "fact_text": "Withdrawals above $100,000 require additional verification and may take up to 5 business days to process",
+      "importance_score": 0.6058,
+      "confidence_score": 1.0,
+      "combined_score": 0.724,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_2",
+      "paragraph_id": "sample_section_2_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_2",
+        "paragraph_id": "sample_section_2_para_1"
+      },
+      "original_text": "Any withdrawal request exceeding these limits must be submitted at least 48 hours in advance and requires approval from the Account Management Department. Withdrawals above $100,000 require additional verification and may take up to 5 business days to process."
+    },
+    {
+      "fact_text": "The cumulative daily ATM withdrawal limit cannot exceed $2,000 per account",
+      "importance_score": 0.6057,
+      "confidence_score": 1.0,
+      "combined_score": 0.724,
+      "fact_type": "threshold,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_3",
+      "paragraph_id": "sample_section_3_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_3",
+        "paragraph_id": "sample_section_3_para_0"
+      },
+      "original_text": "ATM withdrawals are limited to $500 per transaction. The maximum number of ATM transactions allowed per day is 10. The cumulative daily ATM withdrawal limit cannot exceed $2,000 per account. Transactions exceeding these thresholds will be automatically declined."
+    },
+    {
+      "fact_text": "For business accounts, the daily withdrawal limit is set at $25,000",
+      "importance_score": 0.6054,
+      "confidence_score": 1.0,
+      "combined_score": 0.7238,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_2",
+      "paragraph_id": "sample_section_2_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_2",
+        "paragraph_id": "sample_section_2_para_0"
+      },
+      "original_text": "All standard account holders are subject to daily withdrawal limits. The maximum daily withdrawal limit for personal accounts is $5,000. For business accounts, the daily withdrawal limit is set at $25,000. Premium account holders may withdraw up to $50,000 per day without prior authorization."
+    },
+    {
+      "fact_text": "The investigation must be completed within 48 hours",
+      "importance_score": 0.6055,
+      "confidence_score": 1.0,
+      "combined_score": 0.7238,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_7",
+      "paragraph_id": "sample_section_7_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_7",
+        "paragraph_id": "sample_section_7_para_1"
+      },
+      "original_text": "Account activity showing unusual patterns, such as 5 or more transactions exceeding $5,000 within a single day, will result in temporary account suspension pending investigation. The investigation must be completed within 48 hours."
+    },
+    {
+      "fact_text": "Error rates above 0.5% trigger immediate investigation",
+      "importance_score": 0.6055,
+      "confidence_score": 1.0,
+      "combined_score": 0.7238,
+      "fact_type": "number,risk",
+      "document_id": "sample",
+      "section_id": "sample_section_23",
+      "paragraph_id": "sample_section_23_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_23",
+        "paragraph_id": "sample_section_23_para_0"
+      },
+      "original_text": "Transaction error rates must not exceed 0.1% of total transactions. Error rates above 0.5% trigger immediate investigation. Error rates exceeding 1.0% require system-wide review and may result in service suspension until resolution."
+    },
+    {
+      "fact_text": "Critical system failures must be resolved within 8 hours or escalate to executive management",
+      "importance_score": 0.6052,
+      "confidence_score": 1.0,
+      "combined_score": 0.7236,
+      "fact_type": "number,risk,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_22",
+      "paragraph_id": "sample_section_22_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_22",
+        "paragraph_id": "sample_section_22_para_0"
+      },
+      "original_text": "Core banking systems must maintain 99.9% uptime availability. Any system outage exceeding 4 hours triggers business continuity protocols. Critical system failures must be resolved within 8 hours or escalate to executive management."
+    },
+    {
+      "fact_text": "Corporate accounts with verified business relationships exceeding 5 years may be granted increased withdrawal limits",
+      "importance_score": 0.6049,
+      "confidence_score": 1.0,
+      "combined_score": 0.7234,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_15",
+      "paragraph_id": "sample_section_15_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_15",
+        "paragraph_id": "sample_section_15_para_0"
+      },
+      "original_text": "Corporate accounts with verified business relationships exceeding 5 years may be granted increased withdrawal limits. The maximum exception limit is $200,000 per day. These exceptions require annual review and re-approval."
+    },
+    {
+      "fact_text": "EDD must be completed within 10 business days of account opening",
+      "importance_score": 0.6046,
+      "confidence_score": 1.0,
+      "combined_score": 0.7232,
+      "fact_type": "number,constraint",
+      "document_id": "sample",
+      "section_id": "sample_section_11",
+      "paragraph_id": "sample_section_11_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_11",
+        "paragraph_id": "sample_section_11_para_0"
+      },
+      "original_text": "New account openings require complete KYC documentation. Accounts with initial deposits exceeding $25,000 require enhanced due diligence (EDD) procedures. EDD must be completed within 10 business days of account opening."
+    },
+    {
+      "fact_text": "Any security breach affecting more than 1,000 customer records must be reported to regulatory authorities within 72 hours",
+      "importance_score": 0.6045,
+      "confidence_score": 1.0,
+      "combined_score": 0.7231,
+      "fact_type": "number,risk,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_10",
+      "paragraph_id": "sample_section_10_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_10",
+        "paragraph_id": "sample_section_10_para_1"
+      },
+      "original_text": "The organization maintains compliance with PCI DSS Level 1 standards at all times. Any security breach affecting more than 1,000 customer records must be reported to regulatory authorities within 72 hours."
+    },
+    {
+      "fact_text": "Any single transaction exceeding $15,000 triggers immediate fraud detection protocols",
+      "importance_score": 0.6043,
+      "confidence_score": 1.0,
+      "combined_score": 0.723,
+      "fact_type": "number,risk,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_7",
+      "paragraph_id": "sample_section_7_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_7",
+        "paragraph_id": "sample_section_7_para_0"
+      },
+      "original_text": "The system automatically monitors for suspicious activity patterns. Any single transaction exceeding $15,000 triggers immediate fraud detection protocols. Multiple transactions totaling $20,000 within a 24-hour period will also activate fraud prevention measures."
+    },
+    {
+      "fact_text": "Emergency withdrawals up to $20,000 can be approved by branch managers",
+      "importance_score": 0.6042,
+      "confidence_score": 1.0,
+      "combined_score": 0.723,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_14",
+      "paragraph_id": "sample_section_14_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_14",
+        "paragraph_id": "sample_section_14_para_0"
+      },
+      "original_text": "Standard withdrawal limits may be waived in emergency circumstances, including medical emergencies, natural disasters, or legal obligations. Emergency withdrawals up to $20,000 can be approved by branch managers. Withdrawals between $20,000 and $50,000 require regional manager approval."
+    },
+    {
+      "fact_text": "All emergency exceptions must be documented within 24 hours and reviewed by the compliance department within 5 business days",
+      "importance_score": 0.603,
+      "confidence_score": 1.0,
+      "combined_score": 0.7221,
+      "fact_type": "number,constraint,exception,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_14",
+      "paragraph_id": "sample_section_14_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_14",
+        "paragraph_id": "sample_section_14_para_1"
+      },
+      "original_text": "Emergency withdrawals exceeding $50,000 must be approved by the Chief Operating Officer. All emergency exceptions must be documented within 24 hours and reviewed by the compliance department within 5 business days."
+    },
+    {
+      "fact_text": "The organization maintains compliance with PCI DSS Level 1 standards at all times",
+      "importance_score": 0.6028,
+      "confidence_score": 1.0,
+      "combined_score": 0.722,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_10",
+      "paragraph_id": "sample_section_10_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_10",
+        "paragraph_id": "sample_section_10_para_1"
+      },
+      "original_text": "The organization maintains compliance with PCI DSS Level 1 standards at all times. Any security breach affecting more than 1,000 customer records must be reported to regulatory authorities within 72 hours."
+    },
+    {
+      "fact_text": "Exceptions to compliance requirements cannot exceed 90 days without board approval",
+      "importance_score": 0.6029,
+      "confidence_score": 1.0,
+      "combined_score": 0.722,
+      "fact_type": "threshold,constraint,exception,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_16",
+      "paragraph_id": "sample_section_16_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_16",
+        "paragraph_id": "sample_section_16_para_1"
+      },
+      "original_text": "Exceptions to compliance requirements cannot exceed 90 days without board approval. Any exception extending beyond 90 days requires formal policy amendment procedures."
+    },
+    {
+      "fact_text": "Wire transfers between $10,000 and $50,000 require secondary verification and may take up to 24 hours",
+      "importance_score": 0.6009,
+      "confidence_score": 1.0,
+      "combined_score": 0.7206,
+      "fact_type": "threshold",
+      "document_id": "sample",
+      "section_id": "sample_section_4",
+      "paragraph_id": "sample_section_4_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_4",
+        "paragraph_id": "sample_section_4_para_0"
+      },
+      "original_text": "Domestic wire transfers below $10,000 can be processed immediately. Wire transfers between $10,000 and $50,000 require secondary verification and may take up to 24 hours. International wire transfers exceeding $25,000 must comply with international banking regulations and require compliance officer approval."
+    },
+    {
+      "fact_text": "Account activity showing unusual patterns, such as 5 or more transactions exceeding $5,000 within a single day, will result in temporary account suspension pending investigation",
+      "importance_score": 0.6204,
+      "confidence_score": 0.95,
+      "combined_score": 0.7193,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_7",
+      "paragraph_id": "sample_section_7_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_7",
+        "paragraph_id": "sample_section_7_para_1"
+      },
+      "original_text": "Account activity showing unusual patterns, such as 5 or more transactions exceeding $5,000 within a single day, will result in temporary account suspension pending investigation. The investigation must be completed within 48 hours."
+    },
+    {
+      "fact_text": "All operations must comply with the Bank Secrecy Act (BSA) requirements",
+      "importance_score": 0.5971,
+      "confidence_score": 1.0,
+      "combined_score": 0.718,
+      "fact_type": "constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_10",
+      "paragraph_id": "sample_section_10_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_10",
+        "paragraph_id": "sample_section_10_para_0"
+      },
+      "original_text": "All operations must comply with the Bank Secrecy Act (BSA) requirements. Transactions exceeding $10,000 must be reported to the Financial Crimes Enforcement Network (FinCEN) within 15 days. Failure to comply with BSA reporting requirements may result in penalties up to $500,000 per violation."
+    },
+    {
+      "fact_text": "Accounts with balances below $100 are subject to monthly maintenance fees of $5",
+      "importance_score": 0.6178,
+      "confidence_score": 0.95,
+      "combined_score": 0.7175,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_18",
+      "paragraph_id": "sample_section_18_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_18",
+        "paragraph_id": "sample_section_18_para_0"
+      },
+      "original_text": "Accounts with balances below $100 are subject to monthly maintenance fees of $5. Accounts maintaining a minimum balance of $1,000 or more are exempt from maintenance fees. Premium account status requires a minimum balance of $25,000."
+    },
+    {
+      "fact_text": "Personal identifiable information (PII) must be encrypted using AES-256 encryption standards",
+      "importance_score": 0.5948,
+      "confidence_score": 1.0,
+      "combined_score": 0.7164,
+      "fact_type": "number,constraint,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_12",
+      "paragraph_id": "sample_section_12_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_12",
+        "paragraph_id": "sample_section_12_para_0"
+      },
+      "original_text": "Customer transaction data must be retained for a minimum of 7 years as per regulatory requirements. However, data cannot be retained beyond 10 years without explicit customer consent. Personal identifiable information (PII) must be encrypted using AES-256 encryption standards."
+    },
+    {
+      "fact_text": "Withdrawals between $20,000 and $50,000 require regional manager approval",
+      "importance_score": 0.6093,
+      "confidence_score": 0.95,
+      "combined_score": 0.7115,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_14",
+      "paragraph_id": "sample_section_14_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_14",
+        "paragraph_id": "sample_section_14_para_0"
+      },
+      "original_text": "Standard withdrawal limits may be waived in emergency circumstances, including medical emergencies, natural disasters, or legal obligations. Emergency withdrawals up to $20,000 can be approved by branch managers. Withdrawals between $20,000 and $50,000 require regional manager approval."
+    },
+    {
+      "fact_text": "Transfers between $1,000 and $5,000 incur a $10 fee",
+      "importance_score": 0.6092,
+      "confidence_score": 0.95,
+      "combined_score": 0.7114,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_19",
+      "paragraph_id": "sample_section_19_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_19",
+        "paragraph_id": "sample_section_19_para_0"
+      },
+      "original_text": "Standard transaction fees apply as follows: domestic transfers below $1,000 incur a $5 fee. Transfers between $1,000 and $5,000 incur a $10 fee. Transfers exceeding $5,000 incur a fee of 0.2% of the transaction amount, with a maximum fee cap of $100."
+    },
+    {
+      "fact_text": "Unauthorized access attempts exceeding 3 within a 24-hour period will result in immediate account lockout and security review",
+      "importance_score": 0.6082,
+      "confidence_score": 0.95,
+      "combined_score": 0.7107,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_12",
+      "paragraph_id": "sample_section_12_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_12",
+        "paragraph_id": "sample_section_12_para_1"
+      },
+      "original_text": "Access to customer data is restricted to authorized personnel only. Unauthorized access attempts exceeding 3 within a 24-hour period will result in immediate account lockout and security review."
+    },
+    {
+      "fact_text": "Emergency maintenance requires approval from the Chief Technology Officer if exceeding 2 hours",
+      "importance_score": 0.606,
+      "confidence_score": 0.95,
+      "combined_score": 0.7092,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_22",
+      "paragraph_id": "sample_section_22_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_22",
+        "paragraph_id": "sample_section_22_para_1"
+      },
+      "original_text": "Scheduled maintenance windows cannot exceed 6 hours per month. Emergency maintenance requires approval from the Chief Technology Officer if exceeding 2 hours."
+    },
+    {
+      "fact_text": "This document supersedes all previous versions dated prior to January 1, 2024",
+      "importance_score": 0.6038,
+      "confidence_score": 0.95,
+      "combined_score": 0.7077,
+      "fact_type": "number,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_24",
+      "paragraph_id": "sample_section_24_para_2",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_24",
+        "paragraph_id": "sample_section_24_para_2"
+      },
+      "original_text": "This document supersedes all previous versions dated prior to January 1, 2024."
+    },
+    {
+      "fact_text": "The system automatically monitors for suspicious activity patterns",
+      "importance_score": 0.6119,
+      "confidence_score": 0.9,
+      "combined_score": 0.6983,
+      "fact_type": "risk",
+      "document_id": "sample",
+      "section_id": "sample_section_7",
+      "paragraph_id": "sample_section_7_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_7",
+        "paragraph_id": "sample_section_7_para_0"
+      },
+      "original_text": "The system automatically monitors for suspicious activity patterns. Any single transaction exceeding $15,000 triggers immediate fraud detection protocols. Multiple transactions totaling $20,000 within a 24-hour period will also activate fraud prevention measures."
+    },
+    {
+      "fact_text": "Standard withdrawal limits may be waived in emergency circumstances, including medical emergencies, natural disasters, or legal obligations",
+      "importance_score": 0.611,
+      "confidence_score": 0.9,
+      "combined_score": 0.6977,
+      "fact_type": "exception,compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_14",
+      "paragraph_id": "sample_section_14_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_14",
+        "paragraph_id": "sample_section_14_para_0"
+      },
+      "original_text": "Standard withdrawal limits may be waived in emergency circumstances, including medical emergencies, natural disasters, or legal obligations. Emergency withdrawals up to $20,000 can be approved by branch managers. Withdrawals between $20,000 and $50,000 require regional manager approval."
+    },
+    {
+      "fact_text": "All standard account holders are subject to daily withdrawal limits",
+      "importance_score": 0.6075,
+      "confidence_score": 0.9,
+      "combined_score": 0.6953,
+      "fact_type": "compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_2",
+      "paragraph_id": "sample_section_2_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_2",
+        "paragraph_id": "sample_section_2_para_0"
+      },
+      "original_text": "All standard account holders are subject to daily withdrawal limits. The maximum daily withdrawal limit for personal accounts is $5,000. For business accounts, the daily withdrawal limit is set at $25,000. Premium account holders may withdraw up to $50,000 per day without prior authorization."
+    },
+    {
+      "fact_text": "Domestic wire transfers below $10,000 can be processed immediately",
+      "importance_score": 0.6067,
+      "confidence_score": 0.85,
+      "combined_score": 0.6797,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_4",
+      "paragraph_id": "sample_section_4_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_4",
+        "paragraph_id": "sample_section_4_para_0"
+      },
+      "original_text": "Domestic wire transfers below $10,000 can be processed immediately. Wire transfers between $10,000 and $50,000 require secondary verification and may take up to 24 hours. International wire transfers exceeding $25,000 must comply with international banking regulations and require compliance officer approval."
+    },
+    {
+      "fact_text": "Access to customer data is restricted to authorized personnel only",
+      "importance_score": 0.6062,
+      "confidence_score": 0.8,
+      "combined_score": 0.6644,
+      "fact_type": "compliance",
+      "document_id": "sample",
+      "section_id": "sample_section_12",
+      "paragraph_id": "sample_section_12_para_1",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_12",
+        "paragraph_id": "sample_section_12_para_1"
+      },
+      "original_text": "Access to customer data is restricted to authorized personnel only. Unauthorized access attempts exceeding 3 within a 24-hour period will result in immediate account lockout and security review."
+    },
+    {
+      "fact_text": "Version 3.2.1 | Effective Date: January 1, 2024 | Review Date: December 31, 2024",
+      "importance_score": 0.6061,
+      "confidence_score": 0.8,
+      "combined_score": 0.6643,
+      "fact_type": "number",
+      "document_id": "sample",
+      "section_id": "sample_section_0",
+      "paragraph_id": "sample_section_0_para_0",
+      "source": {
+        "document_id": "sample",
+        "section_id": "sample_section_0",
+        "paragraph_id": "sample_section_0_para_0"
+      },
+      "original_text": "Version 3.2.1 | Effective Date: January 1, 2024 | Review Date: December 31, 2024"
+    }
+  ],
+  "metadata": {
+    "document_id": "sample",
+    "author": "unknown",
+    "date": "2026-02-27T15:35:30.020836",
+    "category": "general",
+    "version": "1.0",
+    "source_file": "D:\\Enterprise-Contextual-Compression-Engine-main\\Enterprise-Contextual-Compression-Engine-main\\uploads\\sample.txt"
+  },
+  "compression_stats": {
+    "total_facts": 84,
+    "retained_facts": 84,
+    "dropped_facts": 0,
+    "compression_ratio": 1.0,
+    "information_retention_score": 1.0,
+    "importance_loss": 0.0,
+    "average_importance_retained": 0.6101,
+    "average_importance_dropped": 0.0
+  }
+}

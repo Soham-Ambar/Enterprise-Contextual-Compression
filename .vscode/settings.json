@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Enterprise-Contextual-Compression-Engine-main/src"
+    ]
+}

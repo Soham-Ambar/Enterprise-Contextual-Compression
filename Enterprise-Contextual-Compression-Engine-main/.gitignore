@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Logs
+*.log
+
+# Output files (generated automatically)
+compressed_output.json
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# HuggingFace cache
+.cache/
+
+# Model cache
+models/

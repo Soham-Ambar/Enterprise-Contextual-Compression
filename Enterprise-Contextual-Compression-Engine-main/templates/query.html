@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Query</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="row mb-3">
+      <div class="col-12">
+        <a class="btn btn-outline-secondary" href="{{ url_for('landing') }}">&larr; Back</a>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Query Settings</h5>
+            <form method="post">
+              <div class="mb-2">
+                <label class="form-label">Compressed result file</label>
+                <select name="file" class="form-select">
+                  {% for f in files %}
+                    <option value="{{ f }}" {{ 'selected' if f==selected else '' }}>{{ f }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+              <div class="mb-2">
+                <label class="form-label">Question</label>
+                <input name="question" class="form-control" placeholder="Enter a question e.g. 'what is daily withdrawal limit'" required>
+              </div>
+
+              <div class="mb-2">
+                <label class="form-label">Top K</label>
+                <input name="top_k" type="number" class="form-control" value="5" min="1" max="50">
+              </div>
+
+              <div class="d-grid">
+                <button class="btn btn-primary">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        {% if metadata %}
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title">Document Info</h6>
+            <pre class="small">{{ metadata | tojson(indent=2) }}</pre>
+            {% if stats %}
+              <h6 class="mt-2">Compression Stats</h6>
+              <pre class="small">{{ stats | tojson(indent=2) }}</pre>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="col-md-8">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Results</h5>
+            {% if results is not none %}
+              {% if results %}
+                {% for r in results %}
+                  <div class="mb-3">
+                    <h6>{{ loop.index }}. {{ r.fact_text }}</h6>
+                    <div class="text-muted">Type: {{ r.fact_type }} | Similarity: {{ '%.3f'|format(r.similarity_score) }} | Importance: {{ '%.3f'|format(r.importance_score) }}</div>
+                    <div class="mt-2">
+                      {% if r.source_text %}
+                        <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#orig-{{ loop.index }}" aria-expanded="false" aria-controls="orig-{{ loop.index }}">Show original</button>
+                        <div class="collapse mt-2" id="orig-{{ loop.index }}">
+                          <div class="card card-body bg-white">
+                            <strong>Original Paragraph</strong>
+                            <p class="mb-0">{{ r.source_text }}</p>
+                            <div class="text-muted small">Section: {{ r.section_title or r.section_id }} | Document: {{ r.document_id }}</div>
+                          </div>
+                        </div>
+                      {% else %}
+                        <div class="mt-2 text-muted small">Original source not available.</div>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endfor %}
+              {% else %}
+                <div class="alert alert-warning">No results found for that query.</div>
+              {% endif %}
+            {% else %}
+              <div class="text-muted">Enter a question and press Search to run the query.</div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
